@@ -1,0 +1,325 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h1 span{
+    margin-bottom: 0 !important;
+}
+
+body{
+    color: white;
+}
+
+.vl-dark{
+  background-color: #7C5DFA;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.dark-them{
+  background-color: #1E2139;
+}
+
+.lite-dark-them{
+  background-color: #252945;
+
+}
+
+.vl-lite{
+  color: #9277FF
+}
+
+.logo-container{
+  margin-top: 1% !important;
+  height: 70px;
+  width: 108px;
+  border-color: #7C5DFA;
+  -moz-border-radius-topright: 2px;
+  background-color: #7C5DFA;
+  border-top-right-radius: 20px;
+}
+
+.logo-container1{
+  height: 50px;
+  width: 108px;
+  margin-top: -20px;
+  border-color: #9277FF;
+  -moz-border-radius-topright: 2px;
+  background-color: #9277FF;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.avtarImage{
+  margin-top: 0vh !important;
+}
+
+.marTop1p{
+  margin-top: 1% !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.floatRight {
+  float: right !important;
+}
+
+.wrapper,
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  flex: 0.1;
+  height: 100%;
+  width: 130px;
+}
+
+.main {
+  background-color: black;
+  flex: 1;
+  padding-top: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.invoice-number {
+  margin-bottom: 0 !important;
+}
+
+.header{
+  padding: 2%;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.invoice{
+  background: #252945;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 10vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1px;
+  margin-top: 2% !important;
+}
+
+.iv-content{
+  font-size: 15px !important;
+  padding-top: 1% !important;
+}
+
+.font11p{
+  font-size: 15px !important;
+  padding-top: 1% !important;
+}
+
+.padTop1p{
+  padding-top: 1% !important;
+}
+
+#invoice-list {
+  color: white;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+#invoice-list p {
+  width: 150px;
+}
+
+.invoice h3 p {
+  height: 5px;
+}
+
+.diplayInline{
+  display: inline-flex;
+}
+
+.imgNavLogo{
+  padding: 30%;
+  width: 40px;
+}
+
+.imgAvatar{
+  border-radius: 50%;
+}
+
+.status{
+   background: rgba(0, 151, 19, 0.1);
+   width:110px !important;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.status li {
+  padding-left: 10%;
+  font-weight: bold;
+  color: #009E60;
+}
+
+.status-pending{
+   background: rgba(242, 140, 40, 0.1);
+    width:110px !important;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.status-pending li {
+  padding-left: 10%;
+  font-weight: bold;
+  color: #F28C28;
+}
+
+.status-draft{
+  background: rgba(	137, 141, 169, 0.1);
+  width:110px !important;
+  height: 5vh;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.status-draft li {
+  padding-left: 10%;
+  font-weight: bold;
+  color: white;
+}
+
+.totalInList{
+  text-align: right;
+  width: 100px !important;
+  padding-right: 50px;
+}
+
+.invoiceListArrow {
+  width:2px !important;
+  justify-content: right;
+  padding-left: 2%;
+  padding-top: 1% !important;
+}
+
+.filterByStatusArrow{
+  padding-left: 1.5vw;
+}
+
+.newInvoiceBtn{
+  margin-left: 2vw;
+  background-color: #7C5DFA;
+  color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+}
+
+.circle {
+  color: white;
+  width: 14px;
+  height: 14px;
+  borderRadius: 44/2;
+}
+
+.svg-circleplus { height: 30px; stroke: #7C5DFA; padding-left: 0px;
+float: left;
+padding-top: 4px;}
+
+.martopNeg20px{
+  margin-top: -20px;
+}
+
+.martopNeg30px{
+  margin-top: -30px;
+}
+
+.colorHr{
+  color: white;
+}
+
+.sunLogo{
+  margin-top: 75vh !important;
+  margin-left: 40%;
+}
+
+.colorRed{
+  color: red;
+  font-size: 20px;
+  font-weight: 400;
+}
